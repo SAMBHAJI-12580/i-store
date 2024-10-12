@@ -1,6 +1,5 @@
 <html>
     <head>
-    
         <title>
             E-Cart.com
         </title>
@@ -154,10 +153,10 @@
         .menu-bar
         {
             position:relative;
-            top: -80px;
+            top: 0%;
             list-style-type: none;
             margin: 0;
-            padding: 10px 10px;
+            padding: 0% 0%;
             background-color: #333;
             display: flex;
             justify-content: center;
@@ -169,7 +168,7 @@
             color: white;
             text-align: center;
             padding: 14px 16px;
-            font-size: 30px;
+            font-size: 300%;
         }
         .menu-item a:hover
         {
@@ -180,34 +179,24 @@
         h1
         {
             text-align: center;
-            font-size: 80px;
+            font-size: 400%;
             background-image: url("https://img.freepik.com/free-photo/abstract-grunge-decorative-relief-navy-blue-stucco-wall-texture-wide-angle-rough-colored-background_1258-28311.jpg?size=626&ext=jpg");
+            background-size: 100%;
             color: rgb(254, 254, 255);
             position:center;
-            height: 17%;   
-            padding: 5px px;
+            height: 12%;   
+    
         }
         body
         {
-            background-color: rgb(255, 235, 191);
+            background-color: rgb(228, 215, 188);
         }
         .login
         {
             position:absolute;
             top: 4%;
             right: 10%;
-            font-size: 30px;
-            background-color: #4ba2ff;
-            color: azure;
-            padding: 10px 20px;
-            text-decoration: none;
-        }
-        .signup
-        {
-            position:absolute;
-            top: 4%;
-            right: 1%;
-            font-size: 30px;
+            font-size: 180%;
             background-color: #4ba2ff;
             color: azure;
             padding: 10px 20px;
@@ -216,27 +205,27 @@
         .home-button {
 
             position:absolute;
-            top: 28px;
-            left: 30px;
-            font-size: 30px;
+            top: 4%;
+            left: 2%;
+            font-size: 180%;
             background-color: #007bff;
             color: azure;
             padding: 10px 20px;
             text-decoration: none;
-            border-radius: 5px;
+            border-radius: 0%;
         }
         .products-container {
             display: flex;
             flex-wrap: wrap; 
-            gap: 20px; 
+            gap: 1%; 
             position: relative;
-            top: 0%;
+            top: 2%;
 
         }
         .product {
             border: 2px solid blue;
-            padding: 5px;
-            width: calc(33.33% - 20px);
+            padding: 1%;
+            width: calc(33.33% - 1%);
             box-sizing: border-box; 
         }
         .product img {
@@ -244,24 +233,30 @@
             height: auto;
         }
         .product-info {
-            margin-top: 10px;
+            margin-top: 10%;
         }
         @media (max-width: 100%) {
             .product {
-                width: calc(33.33% - 200px);
+                width: calc(33.33%);
             }
             .login{
-                width: calc(50% - 200px);
+                width: calc(100%);
                 position:absolute;
                 top: 4%;
                 right: 10%;
             }
-            .signup{
-                width: calc(33.33% - 200px);
-                position:absolute;
-                top: 4%;
-                right: 5%;
+            .menu-bar li {
+                float: none;
+                width: 100%;
             }
+            
+        }
+        @media screen and (max-width: 768px) {
+            .menu-bar li {
+                float: none;
+                width: 100%;
+            }
+            
         }
     
     
